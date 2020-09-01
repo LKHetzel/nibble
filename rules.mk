@@ -33,6 +33,8 @@ FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 ENCODER_ENABLE = yes        # Use rotary encoder
 LTO_ENABLE = yes            # Link-time optimization
 CUSTOM_MATRIX = lite        # Lite custom matrix 
+OLED_DRIVER_ENABLE = yes
+#RAW_ENABLE = yes
 
 # Project specific files
 SRC += matrix.c
